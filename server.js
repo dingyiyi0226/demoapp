@@ -5,7 +5,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Debug function
 app.get('/', (req, res) => {
   res.status(200).send('Hello, world!')
 });
