@@ -1,0 +1,12 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Huan-Ting,Chen <dingyiyi0226@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
