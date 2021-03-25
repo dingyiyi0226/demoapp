@@ -1,9 +1,8 @@
-FROM node:14
+FROM node:12-alpine
 WORKDIR /demoapp
-COPY package.json ./
-COPY yarn.lock ./
+COPY package.json yarn.lock ./
 RUN yarn install
 COPY . .
-EXPOSE 4000
+EXPOSE 5678
 CMD ["node", "server.js"]
 
